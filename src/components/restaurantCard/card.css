@@ -1,0 +1,28 @@
+.card__box{
+    text-align: center;
+    height: auto;
+    width: 285px;
+    margin: 20px 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 8px;
+    position: relative;
+    perspective: 1000px; 
+    transition: transform 0.5s; 
+}
+
+
+
+.card__box button{
+    padding: 5px 10px;
+    background-color: grey;
+    border: none;
+    margin: 4px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.card__image{
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    width: 100%;
+}

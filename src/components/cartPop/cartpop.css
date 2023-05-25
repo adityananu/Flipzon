@@ -1,0 +1,37 @@
+.cartPop__box{
+    display: flex;
+    margin: 10px 0;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+.cartPop__box > img{
+    height: auto;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cartPop__text{
+    padding: 10px;
+}
+.cartPop__text > button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: chartreuse;
+}
+
+.cartPop__total{
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cartPop__quantity{
+    width: 50px;
+    padding: 5px;
+    outline-style: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(96, 197, 236);
+}

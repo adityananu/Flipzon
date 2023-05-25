@@ -1,0 +1,42 @@
+.header__box{
+    height: 60px;
+    padding: 27px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.header__logo{
+     font-size: 30px;
+     color: aliceblue;
+     font-family: sans-serif;
+}
+.header__logo > span{
+    color: red;
+    font-size: 26px;
+}
+.cartPop{
+    z-index: 1;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+.header__cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__cart button{
+    padding: 7px 15px;
+    border-radius: 10px;
+    border:none;
+    outline-style:none;
+    background: lime;
+}
